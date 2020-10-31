@@ -1,0 +1,56 @@
+.container {
+  height: 100%;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+
+.container h1 {
+  color: #ffffff;
+  padding-top: 50px;
+}
+
+.container .numerosSorteados{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-content: center;
+}
+
+.container .numerosSorteados h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  margin: 15px;
+
+  background-color: #139213;
+  color: #ffffffd8;
+  font-weight: bold;
+}
+
+.container button {
+  margin: auto;
+  width: 200px;
+  height: 80px;
+  border-radius: 8px;
+  border: none;
+
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+
+  background-color: #cff3bee1;
+  transition: 0.3s;
+}
+
+.container button:hover {
+  color: #fff;
+  background-color: green;
+}
